@@ -64,11 +64,11 @@ document.getElementById("slider").addEventListener("input", function() {
 });
 
 document.getElementById("vintage").addEventListener('click', function() {
-    video.classList.add("oldSchool");
+    document.getElementById("player1").classList.add("oldSchool");
    })
 
-document.getElementById("vintage").addEventListener('click', function() {
-    video.classList.remove("oldSchool");
+document.getElementById("orig").addEventListener('click', function() {
+    document.getElementById("player1").classList.remove("oldSchool");
    })
 
 });
